@@ -1,0 +1,6 @@
+framework module Pods_Trip_Planner_Trip_PlannerUITests {
+  umbrella header "Pods-Trip Planner-Trip PlannerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

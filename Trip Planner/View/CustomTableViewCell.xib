@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="center" layoutMarginsFollowReadableWidth="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomTableViewCell" rowHeight="105" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="Trip_Planner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="214" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" layoutMarginsFollowReadableWidth="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="214" height="149.5"/>
+                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plane-icon" translatesAutoresizingMaskIntoConstraints="NO" id="IJs-Rc-Dyg">
+                        <rect key="frame" x="92" y="21" width="30" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="cQ4-4Z-X0k"/>
+                            <constraint firstAttribute="width" constant="30" id="vwe-bo-wPz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GY4-hG-nWB">
+                        <rect key="frame" x="38" y="29" width="42" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="GXf-oQ-xH8"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="udE-Vu-aJp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G93-vy-Mov">
+                        <rect key="frame" x="134" y="28.5" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Bhu-An-2Ve"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="XR4-nm-qVm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17 Dec 2020 | 17 Dec 2020" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKS-F9-uhS">
+                        <rect key="frame" x="17.5" y="82" width="179" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="4TV-30-R7A"/>
+                            <constraint firstAttribute="width" constant="179" id="Stu-ra-kIe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsD-yu-nlg">
+                        <rect key="frame" x="79.5" y="62" width="55" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEj-S6-wxK">
+                        <rect key="frame" x="53" y="100" width="108" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="108" id="VaC-kS-n5P"/>
+                            <constraint firstAttribute="height" constant="12" id="oyd-eK-xy6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="G93-vy-Mov" firstAttribute="leading" secondItem="IJs-Rc-Dyg" secondAttribute="trailing" constant="12" id="2mP-gG-hzt"/>
+                    <constraint firstItem="IEj-S6-wxK" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="9p8-ja-mOr"/>
+                    <constraint firstItem="MsD-yu-nlg" firstAttribute="top" secondItem="IJs-Rc-Dyg" secondAttribute="bottom" constant="5" id="9uA-kb-0fp"/>
+                    <constraint firstItem="IJs-Rc-Dyg" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Aag-6B-28P"/>
+                    <constraint firstItem="IJs-Rc-Dyg" firstAttribute="centerY" secondItem="GY4-hG-nWB" secondAttribute="centerY" id="Jjo-Yb-ngT"/>
+                    <constraint firstItem="IJs-Rc-Dyg" firstAttribute="leading" secondItem="GY4-hG-nWB" secondAttribute="trailing" constant="12" id="PdQ-LP-LT3"/>
+                    <constraint firstItem="IEj-S6-wxK" firstAttribute="top" secondItem="TKS-F9-uhS" secondAttribute="bottom" constant="5" id="QFp-Lu-xUC"/>
+                    <constraint firstItem="TKS-F9-uhS" firstAttribute="top" secondItem="MsD-yu-nlg" secondAttribute="bottom" constant="8" id="VXf-18-zdp"/>
+                    <constraint firstItem="TKS-F9-uhS" firstAttribute="centerX" secondItem="IJs-Rc-Dyg" secondAttribute="centerX" id="XCS-mo-gAT"/>
+                    <constraint firstItem="IJs-Rc-Dyg" firstAttribute="centerY" secondItem="G93-vy-Mov" secondAttribute="centerY" id="aVB-AJ-WRK"/>
+                    <constraint firstItem="IJs-Rc-Dyg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="sMa-De-noH"/>
+                    <constraint firstItem="MsD-yu-nlg" firstAttribute="centerX" secondItem="IJs-Rc-Dyg" secondAttribute="centerX" id="thD-HI-Fir"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="airlineLabel" destination="IEj-S6-wxK" id="u7U-Cy-ofH"/>
+                <outlet property="departureDateLabel" destination="TKS-F9-uhS" id="dpy-gZ-tlf"/>
+                <outlet property="descriptionLabel" destination="MsD-yu-nlg" id="e7a-jm-J3F"/>
+                <outlet property="destinationLabel" destination="G93-vy-Mov" id="oQe-Lg-jbQ"/>
+                <outlet property="icon" destination="IJs-Rc-Dyg" id="L7n-uv-UOu"/>
+                <outlet property="sourceLabel" destination="GY4-hG-nWB" id="crv-FL-Jfk"/>
+            </connections>
+            <point key="canvasLocation" x="-169.56521739130437" y="196.875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="plane-icon" width="512" height="512"/>
+    </resources>
+</document>

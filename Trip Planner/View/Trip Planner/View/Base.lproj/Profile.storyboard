@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JCU-aQ-1r9">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Proflie-->
+        <scene sceneID="Ac1-Gz-dZW">
+            <objects>
+                <viewController title="Profile" id="JCU-aQ-1r9" userLabel="Proflie" customClass="ProfileViewController" customModule="Trip_Planner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G7O-Yb-ph0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgraound2" translatesAutoresizingMaskIntoConstraints="NO" id="1c4-a0-tCL">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YmW-Sy-Jyr">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u88-kv-e5e">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Jt-O7-Wc3">
+                                                <rect key="frame" x="8" y="8" width="304" height="383"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jeremy Kane" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62W-vK-bK2">
+                                                <rect key="frame" x="110" y="78" width="100" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s3700178@student.rmit.edu.au" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llL-it-hrB">
+                                                <rect key="frame" x="71" y="107" width="178" height="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken Wei Ooi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47P-Jv-ObY">
+                                                <rect key="frame" x="113.5" y="141" width="93" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s3693288@student.rmit.edu.au" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16m-LE-kv4">
+                                                <rect key="frame" x="69" y="170" width="182" height="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s3706515@student.rmit.edu.au" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IjM-kA-JuJ">
+                                                <rect key="frame" x="70.5" y="234" width="179" height="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ruiyang Liang" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSM-D8-a4Z">
+                                                <rect key="frame" x="106.5" y="205" width="107" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group 24 Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1n-BW-cv1">
+                                                <rect key="frame" x="68.5" y="17" width="183" height="33"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xuan Ye" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uA-DS-eRJ">
+                                                <rect key="frame" x="128.5" y="268" width="63" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s3586968@student.rmit.edu.au" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuz-qc-iKd">
+                                                <rect key="frame" x="69" y="297" width="182" height="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="548" id="3oH-J0-xCe"/>
+                                            <constraint firstItem="47P-Jv-ObY" firstAttribute="top" secondItem="llL-it-hrB" secondAttribute="bottom" constant="19" id="709-IV-yry"/>
+                                            <constraint firstAttribute="bottom" secondItem="4Jt-O7-Wc3" secondAttribute="bottom" constant="157" id="98g-Jh-QTW"/>
+                                            <constraint firstItem="I1n-BW-cv1" firstAttribute="centerX" secondItem="u88-kv-e5e" secondAttribute="centerX" id="AJd-YQ-CDI"/>
+                                            <constraint firstAttribute="bottom" secondItem="xuz-qc-iKd" secondAttribute="bottom" constant="236" id="BrD-B3-7Zy"/>
+                                            <constraint firstItem="9uA-DS-eRJ" firstAttribute="top" secondItem="IjM-kA-JuJ" secondAttribute="bottom" constant="19" id="EDa-8b-8dD"/>
+                                            <constraint firstItem="IjM-kA-JuJ" firstAttribute="centerX" secondItem="u88-kv-e5e" secondAttribute="centerX" id="NL0-EZ-SfQ"/>
+                                            <constraint firstItem="IjM-kA-JuJ" firstAttribute="top" secondItem="JSM-D8-a4Z" secondAttribute="bottom" constant="8" id="NNw-Zn-c9W"/>
+                                            <constraint firstItem="4Jt-O7-Wc3" firstAttribute="leading" secondItem="u88-kv-e5e" secondAttribute="leading" constant="8" id="R75-xA-w1x"/>
+                                            <constraint firstItem="llL-it-hrB" firstAttribute="top" secondItem="62W-vK-bK2" secondAttribute="bottom" constant="8" id="Sae-HR-sNB"/>
+                                            <constraint firstItem="JSM-D8-a4Z" firstAttribute="top" secondItem="16m-LE-kv4" secondAttribute="bottom" constant="20" id="Ymv-mo-BZb"/>
+                                            <constraint firstAttribute="trailing" secondItem="4Jt-O7-Wc3" secondAttribute="trailing" constant="8" id="bXZ-nQ-EVM"/>
+                                            <constraint firstItem="16m-LE-kv4" firstAttribute="centerX" secondItem="u88-kv-e5e" secondAttribute="centerX" id="baN-Mr-ue3"/>
+                                            <constraint firstItem="xuz-qc-iKd" firstAttribute="centerX" secondItem="u88-kv-e5e" secondAttribute="centerX" id="bcp-g8-x0Q"/>
+                                            <constraint firstItem="xuz-qc-iKd" firstAttribute="top" secondItem="9uA-DS-eRJ" secondAttribute="bottom" constant="8" id="cOb-fB-wIC"/>
+                                            <constraint firstItem="4Jt-O7-Wc3" firstAttribute="top" secondItem="u88-kv-e5e" secondAttribute="top" constant="8" id="cr4-B7-Yhq"/>
+                                            <constraint firstItem="I1n-BW-cv1" firstAttribute="top" secondItem="u88-kv-e5e" secondAttribute="top" constant="17" id="iNq-VJ-PAh"/>
+                                            <constraint firstItem="62W-vK-bK2" firstAttribute="top" secondItem="I1n-BW-cv1" secondAttribute="bottom" constant="28" id="igJ-Au-Vcw"/>
+                                            <constraint firstItem="JSM-D8-a4Z" firstAttribute="centerX" secondItem="u88-kv-e5e" secondAttribute="centerX" id="ivf-Bd-mE4"/>
+                                            <constraint firstItem="62W-vK-bK2" firstAttribute="centerX" secondItem="u88-kv-e5e" secondAttribute="centerX" id="jiF-GL-czW"/>
+                                            <constraint firstItem="47P-Jv-ObY" firstAttribute="centerX" secondItem="u88-kv-e5e" secondAttribute="centerX" id="mNc-OD-K5E"/>
+                                            <constraint firstItem="llL-it-hrB" firstAttribute="centerX" secondItem="u88-kv-e5e" secondAttribute="centerX" id="mTB-Um-QiS"/>
+                                            <constraint firstItem="16m-LE-kv4" firstAttribute="top" secondItem="47P-Jv-ObY" secondAttribute="bottom" constant="8" id="ueR-xL-BsS"/>
+                                            <constraint firstItem="9uA-DS-eRJ" firstAttribute="centerX" secondItem="u88-kv-e5e" secondAttribute="centerX" id="zUk-kY-C05"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="u88-kv-e5e" firstAttribute="top" secondItem="YmW-Sy-Jyr" secondAttribute="top" id="3KF-a3-NcH"/>
+                                    <constraint firstAttribute="trailing" secondItem="u88-kv-e5e" secondAttribute="trailing" id="6LT-AG-HsA"/>
+                                    <constraint firstItem="u88-kv-e5e" firstAttribute="centerX" secondItem="YmW-Sy-Jyr" secondAttribute="centerX" id="ESy-lR-g00"/>
+                                    <constraint firstItem="4Jt-O7-Wc3" firstAttribute="centerX" secondItem="YmW-Sy-Jyr" secondAttribute="centerX" id="Jtw-4T-aGl"/>
+                                    <constraint firstItem="u88-kv-e5e" firstAttribute="leading" secondItem="YmW-Sy-Jyr" secondAttribute="leading" id="Qrv-iv-VD9"/>
+                                    <constraint firstAttribute="bottom" secondItem="u88-kv-e5e" secondAttribute="bottom" id="es1-2v-qLj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YmW-Sy-Jyr" firstAttribute="top" secondItem="3Ge-he-Py8" secondAttribute="top" id="1W3-2E-Xse"/>
+                            <constraint firstItem="YmW-Sy-Jyr" firstAttribute="centerX" secondItem="3Ge-he-Py8" secondAttribute="centerX" id="5Em-fV-RPX"/>
+                            <constraint firstItem="3Ge-he-Py8" firstAttribute="trailing" secondItem="YmW-Sy-Jyr" secondAttribute="trailing" id="64B-6f-8hT"/>
+                            <constraint firstItem="1c4-a0-tCL" firstAttribute="bottom" secondItem="3Ge-he-Py8" secondAttribute="bottom" id="Ia9-6Q-h1V"/>
+                            <constraint firstItem="1c4-a0-tCL" firstAttribute="top" secondItem="3Ge-he-Py8" secondAttribute="top" id="MsQ-6F-uZt"/>
+                            <constraint firstItem="YmW-Sy-Jyr" firstAttribute="leading" secondItem="3Ge-he-Py8" secondAttribute="leading" id="R2t-Qu-SN5"/>
+                            <constraint firstItem="YmW-Sy-Jyr" firstAttribute="bottom" secondItem="3Ge-he-Py8" secondAttribute="bottom" id="TsF-Q2-Trf"/>
+                            <constraint firstItem="YmW-Sy-Jyr" firstAttribute="leading" secondItem="3Ge-he-Py8" secondAttribute="leading" id="ZP1-Ep-LxW"/>
+                            <constraint firstItem="YmW-Sy-Jyr" firstAttribute="top" secondItem="3Ge-he-Py8" secondAttribute="top" id="ckH-cK-AEE"/>
+                            <constraint firstItem="1c4-a0-tCL" firstAttribute="centerX" secondItem="G7O-Yb-ph0" secondAttribute="centerX" id="mD7-d7-1Gr"/>
+                            <constraint firstItem="1c4-a0-tCL" firstAttribute="trailing" secondItem="3Ge-he-Py8" secondAttribute="trailing" id="mXI-4y-6dQ"/>
+                            <constraint firstItem="1c4-a0-tCL" firstAttribute="leading" secondItem="3Ge-he-Py8" secondAttribute="leading" id="r6m-JG-cD3"/>
+                            <constraint firstItem="YmW-Sy-Jyr" firstAttribute="centerY" secondItem="3Ge-he-Py8" secondAttribute="centerY" id="spo-AB-SKO"/>
+                            <constraint firstItem="3Ge-he-Py8" firstAttribute="bottom" secondItem="YmW-Sy-Jyr" secondAttribute="bottom" id="vIy-rT-elN"/>
+                            <constraint firstItem="YmW-Sy-Jyr" firstAttribute="trailing" secondItem="3Ge-he-Py8" secondAttribute="trailing" id="yrb-Oe-sHF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3Ge-he-Py8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Bg-tP-saJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uK5-1P-8vn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1335" y="1440.8450704225352"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backgraound2" width="448" height="802"/>
+    </resources>
+</document>

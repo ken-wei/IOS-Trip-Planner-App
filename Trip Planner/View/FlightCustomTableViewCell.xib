@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="center" layoutMarginsFollowReadableWidth="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FlightCustomTableViewCell" rowHeight="150" id="KGk-i7-Jjw" customClass="FlightCustomTableViewCell" customModule="Trip_Planner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17 Dec 2020 | 17 Dec 2020" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhx-f1-TSy">
+                        <rect key="frame" x="65" y="76" width="170" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="170" id="DrU-er-KlZ"/>
+                            <constraint firstAttribute="height" constant="16" id="aD7-gC-jn1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airline Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bsy-8U-IGh">
+                        <rect key="frame" x="87.5" y="97" width="125" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="JfU-1L-scE"/>
+                            <constraint firstAttribute="width" constant="125" id="x2m-Px-Vs4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ge-Ke-VN2">
+                        <rect key="frame" x="50" y="19" width="60" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="82E-Js-pap"/>
+                            <constraint firstAttribute="width" constant="60" id="BzI-66-E0j"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHI-bT-imp">
+                        <rect key="frame" x="190" y="19" width="60" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="PdF-VC-UCr"/>
+                            <constraint firstAttribute="height" constant="35" id="ucD-Rc-5tV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="one-way" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZH-FH-l28">
+                        <rect key="frame" x="129" y="59" width="42" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="UyC-TX-wlb"/>
+                            <constraint firstAttribute="height" constant="12" id="zwo-vi-oOf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plane-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Ujt-OU-lWW">
+                        <rect key="frame" x="125" y="19" width="50" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="BBd-SJ-9mS"/>
+                            <constraint firstAttribute="height" constant="35" id="bgg-Rb-vzn"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0s-Ng-sFL">
+                        <rect key="frame" x="258" y="115" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="6B0-UQ-wmt"/>
+                            <constraint firstAttribute="width" constant="25" id="7E5-Ch-ZH2"/>
+                        </constraints>
+                        <state key="normal" image="add_button"/>
+                        <connections>
+                            <action selector="addToPlan:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cR4-Mz-LPI"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AU XXXXX.XX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zwb-hz-h4X">
+                        <rect key="frame" x="79.5" y="117" width="141" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="141" id="JqN-Uv-D9Q"/>
+                            <constraint firstAttribute="height" constant="21" id="t1o-SC-l0d"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ujt-OU-lWW" firstAttribute="leading" secondItem="2ge-Ke-VN2" secondAttribute="trailing" constant="15" id="0Qp-3h-oyg"/>
+                    <constraint firstItem="Zwb-hz-h4X" firstAttribute="top" secondItem="Bsy-8U-IGh" secondAttribute="bottom" constant="5" id="5zi-TH-9kd"/>
+                    <constraint firstAttribute="trailing" secondItem="R0s-Ng-sFL" secondAttribute="trailing" constant="17" id="IpW-sL-QrM"/>
+                    <constraint firstItem="Ujt-OU-lWW" firstAttribute="centerY" secondItem="2ge-Ke-VN2" secondAttribute="centerY" id="Rnt-rc-E60"/>
+                    <constraint firstItem="Zwb-hz-h4X" firstAttribute="centerY" secondItem="R0s-Ng-sFL" secondAttribute="centerY" id="XJT-mw-rKI"/>
+                    <constraint firstItem="Mhx-f1-TSy" firstAttribute="centerX" secondItem="Bsy-8U-IGh" secondAttribute="centerX" id="Xcu-YU-MWd"/>
+                    <constraint firstItem="Bsy-8U-IGh" firstAttribute="top" secondItem="Mhx-f1-TSy" secondAttribute="bottom" constant="5" id="dCc-kQ-60L"/>
+                    <constraint firstItem="Ujt-OU-lWW" firstAttribute="centerY" secondItem="fHI-bT-imp" secondAttribute="centerY" id="eAv-9A-Z7V"/>
+                    <constraint firstItem="Ujt-OU-lWW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="g79-ae-JEO"/>
+                    <constraint firstItem="Mhx-f1-TSy" firstAttribute="top" secondItem="TZH-FH-l28" secondAttribute="bottom" constant="5" id="iAB-Fp-VW1"/>
+                    <constraint firstItem="TZH-FH-l28" firstAttribute="top" secondItem="Ujt-OU-lWW" secondAttribute="bottom" constant="5" id="lDn-Gy-0yl"/>
+                    <constraint firstItem="Ujt-OU-lWW" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ng2-mj-wM9"/>
+                    <constraint firstItem="Bsy-8U-IGh" firstAttribute="centerX" secondItem="Zwb-hz-h4X" secondAttribute="centerX" id="ols-0z-0s8"/>
+                    <constraint firstItem="Ujt-OU-lWW" firstAttribute="centerX" secondItem="TZH-FH-l28" secondAttribute="centerX" id="qbo-qb-kuT"/>
+                    <constraint firstItem="TZH-FH-l28" firstAttribute="centerX" secondItem="Mhx-f1-TSy" secondAttribute="centerX" id="sz8-eN-vMm"/>
+                    <constraint firstItem="fHI-bT-imp" firstAttribute="leading" secondItem="Ujt-OU-lWW" secondAttribute="trailing" constant="15" id="yvf-Jn-ihH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="airlineLabel" destination="Bsy-8U-IGh" id="qxV-JR-qAx"/>
+                <outlet property="arrivalLabel" destination="fHI-bT-imp" id="TeQ-V3-Rac"/>
+                <outlet property="dateLabel" destination="Mhx-f1-TSy" id="RST-Qp-xId"/>
+                <outlet property="descriptionLabel" destination="TZH-FH-l28" id="7Ww-Zb-ovU"/>
+                <outlet property="flightIcon" destination="Ujt-OU-lWW" id="U6J-LH-i8c"/>
+                <outlet property="priceLabel" destination="Zwb-hz-h4X" id="gWF-TW-oxP"/>
+                <outlet property="sourceLabel" destination="2ge-Ke-VN2" id="3i3-zM-KwM"/>
+            </connections>
+            <point key="canvasLocation" x="71.014492753623188" y="70.3125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="add_button" width="512" height="512"/>
+        <image name="plane-icon" width="512" height="512"/>
+    </resources>
+</document>
